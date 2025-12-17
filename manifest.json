@@ -1,0 +1,22 @@
+{
+  "name": "Bombo Radyo News Aggregator",
+  "short_name": "Bombo News",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f7f9",
+  "theme_color": "red",
+  "description": "A consolidated feed of the latest headlines from top Philippine and global sources.",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "profile.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "profile.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}

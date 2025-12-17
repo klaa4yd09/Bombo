@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bombo Radyo News Aggregator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="profile.jpg" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="red" />
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <div class="header-info">
+          <h1>
+            <img src="profile.jpg" alt="Bombo Radyo Logo" class="header-logo" />
+            Bombo Radyo
+          </h1>
+          <p>
+            A consolidated feed of the latest headlines from top Philippine and
+            global sources.
+          </p>
+        </div>
+        <div class="controls-bar">
+          <button id="refresh-button" title="Manually Refresh News">
+            <span class="icon">🔄</span> Refresh
+          </button>
+          <span id="status-message" class="status-message">Ready</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div id="category-buttons" class="category-selector"></div>
+      <ul id="news-container"></ul>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
